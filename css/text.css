@@ -1,0 +1,9 @@
+#header{
+  color: blue;
+}
+body{
+  background-color: gray;
+}
+#header::last-word{
+  color: green;
+}
