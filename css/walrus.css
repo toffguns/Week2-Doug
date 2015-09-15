@@ -1,0 +1,39 @@
+#walrus-showing {
+  display: none;
+}
+
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable: hover {
+  text-decoration: underline;
+}
+
+#sf-fadeout {
+  display: none;
+}
+
+.sfclickable {
+  cursor: pointer;
+  color: green;
+}
+
+#sf-slideout{
+  display: none;
+}
+
+.sffclickable {
+  cursor: pointer;
+  color: blue;
+}
+
+#sandcastles-content{
+  display: none;
+}
+
+.clicksandcastle{
+  cursor: pointer;
+  color: red;
+}
