@@ -7,3 +7,7 @@ body{
 #header::last-word{
   color: green;
 }
+
+#display {
+  display: block;
+}

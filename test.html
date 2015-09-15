@@ -5,14 +5,22 @@
     <link href="css/text.css" rel="stylesheet" type="text/css"></link>
 
   <head>
-
     <title>Test Page</title>
   </head>
 
-  <body>
+  <body id="bodybg">
     <h1 id="header">Type your name</h1>
     <input type='button' value='Update Name' onclick='updateHeader()' />
 
+    <form>
+      <h1>What kind of car do you drive?</h1>
+      <input id="carsmake" type="text" placeholder="Car's Make" />
+      <input id="carsmodel" type="text" placeholder="Car's Model" />
+      <input id="carsyear" type="text" placeholder="Car's Year" />
+      <input type="button" value="Save/Show" onclick="insert()" />
+    </form>
+
+    <div id="display"></div>
   </body>
 
 </html>
