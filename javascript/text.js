@@ -40,7 +40,7 @@ function clearAndShow(){
     carsmakeInput.value = "";
     carsmodelInput.value = "";
     carsyearInput.value = "";
-    
+
 //shows output
     messageBox = document.getElementById("display");
     messageBox.innerHTML = "";

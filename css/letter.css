@@ -1,0 +1,8 @@
+#letter{
+  display: none;
+}
+
+.username{
+  text-transform: capitalize;
+  color: red;
+}
